@@ -43,10 +43,41 @@ footer{
   left: 0;
   width: 100%;
   display: flex;
-  align-items: center;
   justify-content: space-between;
   gap: 1rem;
   padding: 1rem;
+}
+
+footer div{
+  display: flex;
+  flex-direction: column;
+}
+
+footer h2{
+  font-size: 1.4rem;
+}
+
+footer h1{
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+
+footer button{
+  background: transparent;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 1rem;
+  transition-duration: 200ms;
+}
+
+footer button i{
+  font-size: 1.3rem;
+}
+
+footer button:hover{
+  opacity: 0.5;
 }
 
 .bgGradient{
@@ -100,6 +131,7 @@ footer{
   transition-duration: 200ms;
   padding: 1rem;
 }
+
 
 @media(min-width: 640px){
   .sidebar{
