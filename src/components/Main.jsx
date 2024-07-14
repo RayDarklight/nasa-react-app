@@ -1,8 +1,7 @@
 export default function Main() {
   return (
-    <div>
+    <div className="imageContainer">
       <img src="mars.png" alt="mars-demo-picture" className="bgImage" />
     </div>
-
-  )
+  );
 }

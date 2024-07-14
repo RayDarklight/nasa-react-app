@@ -4,6 +4,7 @@ import SideBar from "./components/SideBar"
 
 
 function App() {
+  const[showModal,setShowModal]
 
 
   return (
