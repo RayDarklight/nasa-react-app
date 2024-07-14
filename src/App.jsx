@@ -1,3 +1,5 @@
+import Main from "./components/Main"
+import SideBar from "./components/SideBar"
 
 
 function App() {
@@ -5,7 +7,10 @@ function App() {
 
   return (
     <>
-      8*4{8*4}
+      <SideBar></SideBar>
+      <Main/>
+      <Footer/>
+      
     </>
   )
 }
